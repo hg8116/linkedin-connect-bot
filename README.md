@@ -1,6 +1,11 @@
 # LinkedIn Connect Bot
 
-This bot automates sending connection requests and following users on LinkedIn using Selenium.
+This bot automates sending connection requests and following users on LinkedIn using Python and Selenium.
+
+## Prerequisites
+
+- Python 3.x
+- [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 
 ## Setup
 
@@ -40,3 +45,19 @@ Run the bot:
 ```sh
 python linkedin_bot.py
 ```
+
+## Notes
+
+1. Ensure you have Firefox installed as the Selenium driver is set to use Firefox.
+
+2. Modify the `linkedin-links.ods` file or add your own to include the LinkedIn profile URLs you want to connect with or follow.
+
+3. This bot will attempt to send a connection request to each LinkedIn URL. If it can't send a connection request, it will try to follow the user instead.
+
+## Disclaimer
+
+Use this bot responsibly and in accordance with LinkedIn's terms of service. Automating actions on LinkedIn can lead to your account being restricted or banned if not used carefully.
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
